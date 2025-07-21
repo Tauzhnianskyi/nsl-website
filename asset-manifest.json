@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nsl-website/static/css/main.03640952.css",
+    "main.js": "/nsl-website/static/js/main.a492dccd.js",
+    "static/media/about-image.jpg": "/nsl-website/static/media/about-image.7cec08c8e845f1e24368.jpg",
+    "static/media/logo.png": "/nsl-website/static/media/logo.85322538b14e2c778c69.png",
+    "index.html": "/nsl-website/index.html",
+    "main.03640952.css.map": "/nsl-website/static/css/main.03640952.css.map",
+    "main.a492dccd.js.map": "/nsl-website/static/js/main.a492dccd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03640952.css",
+    "static/js/main.a492dccd.js"
+  ]
+}
