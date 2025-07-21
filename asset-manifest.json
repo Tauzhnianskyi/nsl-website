@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nsl-website/static/css/main.8e8d35ec.css",
-    "main.js": "/nsl-website/static/js/main.a492dccd.js",
-    "static/media/about-image.jpg": "/nsl-website/static/media/about-image.7cec08c8e845f1e24368.jpg",
+    "main.js": "/nsl-website/static/js/main.979934fe.js",
     "static/media/logo.png": "/nsl-website/static/media/logo.85322538b14e2c778c69.png",
+    "static/media/about-image.png": "/nsl-website/static/media/about-image.4438b4d371175f37be45.png",
     "index.html": "/nsl-website/index.html",
     "main.8e8d35ec.css.map": "/nsl-website/static/css/main.8e8d35ec.css.map",
-    "main.a492dccd.js.map": "/nsl-website/static/js/main.a492dccd.js.map"
+    "main.979934fe.js.map": "/nsl-website/static/js/main.979934fe.js.map"
   },
   "entrypoints": [
     "static/css/main.8e8d35ec.css",
-    "static/js/main.a492dccd.js"
+    "static/js/main.979934fe.js"
   ]
 }
