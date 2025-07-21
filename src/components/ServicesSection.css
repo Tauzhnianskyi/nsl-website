@@ -1,0 +1,86 @@
+.services-container {
+  background: linear-gradient(to bottom, #001f33 0%, #007bb8 100%);
+  color: white;
+  text-align: center;
+  padding: 80px 50px;
+}
+
+.services-container h2 {
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  color: #FFF;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 30px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;             
+  flex-direction: column;   
+  justify-content: flex-start;
+  min-height: 320px;  
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.service-icon {
+  font-size: 45px;
+  color: #009fe3; /* ✅ фирменный синий */
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.service-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.service-btn {
+  background: #009fe3;
+  border: none;
+  padding: 12px 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: auto; /* ✅ прижимает кнопку вниз */
+}
+
+.service-btn:hover {
+  background: #007bb8;
+}
+
+/* ✅ Адаптив */
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}

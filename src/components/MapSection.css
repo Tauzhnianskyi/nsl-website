@@ -1,0 +1,36 @@
+.map-section {
+  background: linear-gradient(to bottom, #007bb8 0%, #004d73 100%);
+  color: white;
+  text-align: center;
+  padding: 80px 50px;
+}
+
+.map-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #FFF;
+}
+
+.map-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.map-container svg {
+  width: 100%; /* ✅ только для карты */
+  height: auto;
+  display: block;
+}
+
+.tooltip {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 1000;
+  transition: opacity 0.2s ease;
+}

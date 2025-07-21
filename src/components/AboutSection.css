@@ -1,0 +1,168 @@
+/* ✅ Общая секция */
+.about-container {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  padding: 80px 50px;
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+}
+
+.about-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.about-content-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-content {
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+.about-content h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.about-btn {
+  background: #009fe3;
+  border: none;
+  padding: 14px 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: #007bb8;
+}
+
+/* ✅ Фон при открытии */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+/* ✅ Модальное окно (Desktop) */
+.inline-modal {
+  position: fixed; /* ✅ фиксируем, чтобы всегда было видно */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-width: 90vw;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(12px);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  z-index: 101;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.4s ease forwards;
+}
+
+/* Заголовки и текст */
+.inline-modal h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #009fe3;
+}
+
+.inline-modal p,
+.inline-modal li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.inline-modal ul {
+  margin: 10px 0 20px 20px;
+}
+
+.close-btn {
+  display: block;
+  margin: 20px auto 0;
+  background: #009fe3;
+  border: none;
+  padding: 12px 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.close-btn:hover {
+  background: #007bb8;
+}
+
+/* ✅ Анимации */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -45%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* ✅ Мобильная версия */
+@media (max-width: 768px) {
+  .inline-modal {
+    width: 100%;
+    height: 70%;
+    bottom: 0;
+    top: auto;
+    left: 0;
+    transform: none;
+    border-radius: 15px 15px 0 0;
+    animation: slideUp 0.4s ease forwards;
+    background: rgba(0, 0, 0, 0.9);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
