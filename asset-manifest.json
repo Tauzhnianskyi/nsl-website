@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/nsl-website/static/css/main.9aa5e7d4.css",
-    "main.js": "/nsl-website/static/js/main.5f1b4d91.js",
+    "main.css": "/nsl-website/static/css/main.52c5481f.css",
+    "main.js": "/nsl-website/static/js/main.fe255115.js",
     "static/media/logo.png": "/nsl-website/static/media/logo.85322538b14e2c778c69.png",
+    "static/media/financial-solutions.png": "/nsl-website/static/media/financial-solutions.dec4b9ea0350f7699ac5.png",
+    "static/media/investment.png": "/nsl-website/static/media/investment.b018b2923b6ad6f633c3.png",
     "static/media/about-image.png": "/nsl-website/static/media/about-image.4438b4d371175f37be45.png",
+    "static/media/protective-agency.png": "/nsl-website/static/media/protective-agency.a34297e0771888080405.png",
+    "static/media/hold-cleaning.jpg": "/nsl-website/static/media/hold-cleaning.e7a91b94bb8ffac1f468.jpg",
     "index.html": "/nsl-website/index.html",
-    "main.9aa5e7d4.css.map": "/nsl-website/static/css/main.9aa5e7d4.css.map",
-    "main.5f1b4d91.js.map": "/nsl-website/static/js/main.5f1b4d91.js.map"
+    "main.52c5481f.css.map": "/nsl-website/static/css/main.52c5481f.css.map",
+    "main.fe255115.js.map": "/nsl-website/static/js/main.fe255115.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aa5e7d4.css",
-    "static/js/main.5f1b4d91.js"
+    "static/css/main.52c5481f.css",
+    "static/js/main.fe255115.js"
   ]
 }
